@@ -1,0 +1,8 @@
+[
+  {"model": "editorial.role", "pk": 1, "fields": {"nom": "correspondant"}},
+  {"model": "editorial.role", "pk": 2, "fields": {"nom": "redacteur"}},
+  {"model": "editorial.role", "pk": 3, "fields": {"nom": "correcteur"}},
+  {"model": "editorial.role", "pk": 4, "fields": {"nom": "responsable"}},
+  {"model": "editorial.role", "pk": 5, "fields": {"nom": "commercial"}},
+  {"model": "editorial.role", "pk": 6, "fields": {"nom": "diffuseur"}}
+]
