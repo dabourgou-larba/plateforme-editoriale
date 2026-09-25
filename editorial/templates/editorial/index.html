@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Plateforme Éditoriale</title>
-    <!-- On relie le fichier CSS ici -->
+    <!-- Chargement du fichier CSS -->
     <link rel="stylesheet" href="{% static 'editorial/css/style.css' %}">
 </head>
 <body>
+
     <h1>Bienvenue sur la Plateforme Éditoriale !</h1>
     <p>Le style CSS s'applique correctement.</p>
+
+    <!-- Chargement du fichier JS (à placer juste avant </body>) -->
+    <script src="{% static 'editorial/js/main.js' %}"></script>
 </body>
 </html>
